@@ -4,6 +4,7 @@ def quicksort(array, start, end):
      pivot = array[start]
      left=start+1
      right = end
+     #partitioning
      while left<=right:
           if array[left]>=pivot and array[right]<=pivot:
                temp = array[left]
