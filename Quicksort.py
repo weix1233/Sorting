@@ -19,6 +19,7 @@ def quicksort(array, start, end):
      temp = array[start]
      array[start]=array[right]
      array[right]=temp
+     #recursively call quicksort
      quicksort(array,start,right-1)
      quicksort(array,left,end)
 
