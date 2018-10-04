@@ -1,6 +1,6 @@
 def bubbleEfficient(data):
     noswaps=False
-    while noswaps==False:
+    while noswaps==False: #stop when no swaps in a pass
         noswaps=True
         for j in range(1,len(data)):
             if data[j]<data[j-1]:
