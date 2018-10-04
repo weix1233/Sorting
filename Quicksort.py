@@ -16,6 +16,7 @@ def quicksort(array, start, end):
                left+=1
           if array[right]>pivot:
                right-=1
+     #place pivot in right place
      temp = array[start]
      array[start]=array[right]
      array[right]=temp
